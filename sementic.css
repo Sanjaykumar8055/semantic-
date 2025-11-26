@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: larger;
+    color: rgb(0, 254, 178);
+    background-color: rgb(10, 133, 133);
+}
+main{
+    display: flex;
+
+}
+.home{
+    width: 70%;
+}
+aside{
+    float: right;
+    width: 30%;
+}
+h2{
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(125, 210, 210);
+}
+ol{
+    margin: 40px;
+    list-style: none;
+    line-height: 55px;
+    font-size: 25px;
+}
